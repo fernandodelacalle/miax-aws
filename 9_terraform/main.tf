@@ -13,11 +13,38 @@ provider "aws" {
   region  = "eu-west-1"
 }
 
-resource "aws_instance" "app_server" {
-  ami           = "ami-830c94e3"
-  instance_type = "t2.micro"
+resource "aws_ecr_repository" "lambda" {
+  name = "lambda-test"
+}
 
-  tags = {
-    Name = "ExampleAppServerInstance"
+
+resource "aws_security_group" "sg-allow_ssh_http" {
+  name = "allow_ssh_http"
+  ingress {
+    from_port = 22
+    protocol = "tcp"
+    to_port = 22
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  ingress {
+    from_port = 8080
+    protocol = "tcp"
+    to_port = 8080
+    cidr_blocks = ["0.0.0.0/0"]
   }
 }
+
+resource "aws_instance" "example" {
+  ami = "ami-0ea0f26a6d50850c5"
+  instance_type = "t2.micro"
+
+  vpc_security_group_ids = [
+    aws_security_group.sg-allow_ssh_http.id
+  ]
+
+  key_name = "claves-test"
+
+}
+
+
