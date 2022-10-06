@@ -5,7 +5,7 @@ paginate: true
 
 
 ---
-# Despliege automatico de contenedores en ECS con Github Actions.
+# Despliege automatico de contenedores en App Runner con Github Actions.
 
 ---
 
