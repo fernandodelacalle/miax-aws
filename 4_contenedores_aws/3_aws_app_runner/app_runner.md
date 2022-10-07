@@ -27,3 +27,8 @@ img[alt~="center"] {
 
 # DEMO
 
+---
+
+# Ejercicio
+
+- Despliega el API Realizado anteriormente en un contenedor con App Runner.

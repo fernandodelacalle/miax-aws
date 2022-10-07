@@ -27,6 +27,10 @@ img[alt~="center"] {
 
 ![center](imgs/tf2.png)
 
+---
+
+Install:
+- https://www.terraform.io/downloads
 
 ---
 # Terraform Command Line
