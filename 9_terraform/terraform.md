@@ -111,3 +111,9 @@ AWS Provider Documentation: https://registry.terraform.io/providers/hashicorp/aw
 ---
 
 # DEMO
+
+---
+
+# Ejercicio
+
+- Desliega una función lamnda usando terraform. Usa una imagen de los ejercios anteriores.

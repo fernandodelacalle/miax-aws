@@ -73,3 +73,9 @@ print(df)
 
 # DEMO
 
+---
+
+# Ejercicio
+
+- Usa Amazon Athena para el fichero market_data_proc.csv y realiza una consulta desde la interfaz.
+- Realiza la misma consulta desde python.
