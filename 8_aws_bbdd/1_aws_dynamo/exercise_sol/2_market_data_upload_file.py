@@ -3,7 +3,7 @@ import boto3
 from decimal import Decimal
 
 
-data = pd.read_csv('../../../data_exercises/market_data/market_data_proc.csv')
+data = pd.read_csv('../../../market_data/market_data_proc.csv')
 print(data.shape)
 print(data.columns)
 

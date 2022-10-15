@@ -1,5 +1,7 @@
 # Contenidos
 
+---
+
 ## 1. AWS EC2
 - Introducción a AWS.
 - Máquinas Virtuales en AWS: EC2
@@ -8,20 +10,22 @@
 - Variables de entorno.
 - Despliegue de un API en EC2.
 
+---
+
 ## 2. AWS S3
 - Almacenamiento S3.
 
+---
+
 ## 3. AWS Lambda.
 - Funciones Lambda.
-- Registro de imágenes Docker en AWS ECR.
-- Funciones Lambda con Docker.
 
 ---
 
-## 4. Contenedores en AWS: ECS y Amazon Lightsail.
-- Despliege de imágenes Docker en AWS EC2.
-- Despliege de imágenes Docker en AWS ECS.
-- Despliege de imágenes Docker en Amazon Lightsail.
+## 4. Contenedores en AWS: App Runner.
+- Registro de imágenes Docker en AWS ECR.
+- Despliege de imágenes Docker en AWS App Runner.
+- Funciones Lambda con Docker.
 
 ---
 
@@ -29,13 +33,19 @@
 - Filosofía Devops.
 - Acciones de Github.
 - Ejemplo DevOps AWS Lambda.
-- Ejemplo DevOps AWS EC2 y ECR.
+- Ejemplo DevOps AWS ECR y App Runner.
+
+---
 
 ## 6. Bases de datos en AWS: AWS RDS, AWS Dynamo
-- Bases de Datos Relacionales en AWS: RDS
-- AWS Athenea
 - Bases de Datos Relacionales en AWS: Dynamo
+- AWS Athenea
+
+---
+
 ### Proyecto final
+
+---
 
 # Otros
 - Para convertir las diapositivas de md a pdf usar el comando:

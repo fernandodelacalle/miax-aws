@@ -18,12 +18,11 @@ paginate: true
 ```bash
       - name: Deploy to App Runner
         id: deploy-apprunner
-        uses: awslabs/amazon-app-runner-deploy@main        
+        uses: awslabs/amazon-app-runner-deploy@main
         with:
           service: app-runner-image-deploy-service
           image: imagename       
           access-role-arn: ROLE_ARN
-          runtime: python3        
           region: REGION
           cpu : 1
           memory : 2
@@ -31,7 +30,9 @@ paginate: true
           wait-for-service-stability: true
 ```
 
-Puedes ver un ejemplo en: https://github.com/sanju2/pythonapplication/blob/main/.github/workflows/image-pipeline.yml
+---
+
+ROLE_ARN: buscar en la interfaz de aws.
 
 ---
 
