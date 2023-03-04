@@ -59,9 +59,3 @@ import os
 os.environ["API_KEY"] = “YOUR_API_KEY”
 ```
 
----
-# Ejercicio
-- Crea una variable de entorno en la terminal.
-- Escribe un programa que lea esa variable y la muestre por pantalla.
-
-
